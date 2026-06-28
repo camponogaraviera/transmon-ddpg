@@ -1,0 +1,18 @@
+name: rl-transmon-gpu
+channels:
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python==3.11.0
+  - gymnasium==1.2.1
+  - scqubits==4.3.1
+  - matplotlib==3.10.8
+  - imageio==2.37.2
+  - numpy==1.26.4
+  - pytest==9.0.2
+  - black==26.3.1
+  - flake8==7.3.0
+  - pre-commit==4.5.1
+  - pip:
+      - tensorflow[and-cuda]==2.17.0

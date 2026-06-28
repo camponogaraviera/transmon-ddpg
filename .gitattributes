@@ -1,0 +1,17 @@
+* text=auto
+
+# --- Python ---
+*.py   text eol=lf
+
+# --- Data / Config ---
+*.yml  text eol=lf
+*.yaml text eol=lf
+*.toml text eol=lf
+*.ini  text eol=lf
+
+# --- Docs ---
+*.md   text eol=lf
+*.txt  text eol=lf
+
+# --- Shell scripts ---
+*.sh   text eol=lf
